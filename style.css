@@ -233,7 +233,31 @@ button:hover {
     top: 54%;
   }
 }
+@media (max-width: 360px) {
+  .home .container p {
+    color: #fff700;
+    position: relative;
+    left: 5%;
+    top: 29.5%;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    width: 100%;
+    font-weight: 300;
+  }
+  button {
+    left: 20%;
+    top: 38%;
+  }
 
+  .home a img {
+    position: relative;
+    left: -22%;
+    top: 54%;
+  }
+}
 /* end home */
 
 /* start header */
