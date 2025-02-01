@@ -52,7 +52,7 @@ body {
   /* background: linear-gradient( rgba (19, 19, 22, 0.5) , rgba (19, 19, 22, 0.5 )) ,
      url(../img/header_bg.jpg); */
   background: linear-gradient(rgba(19, 19, 22, 0.5), rgba(19, 19, 22, 0.5)),
-    url(../LEMONATA/header_bg.jpg);
+    url(../header_bg.jpg);
   background-position: top left;
   height: 100vh;
   background-size: cover;
@@ -332,6 +332,71 @@ button:hover {
     left: 96%;
     top: 60%;
     z-index: 2;
+  }
+}
+@media (max-width: 380px) {
+  .log {
+    height: 90px;
+    position: relative;
+    left: 35%;
+    top: 14%;
+  }
+
+  .home .container span {
+    color: white;
+    position: relative;
+    left: -15%;
+    top: 22%;
+    font-size: 13px;
+  }
+  .home .container p {
+    color: #fff700;
+    position: relative;
+    left: -30%;
+    top: 35.5%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    width: 252px;
+    font-weight: 300;
+  }
+
+  button {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    width: 230px;
+    position: relative;
+    height: 60px;
+    left: 180%;
+    background-color: #ffffff00;
+    border: 2px solid #caca00;
+    top: 41%;
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+    transition-duration: 0.5s;
+    transform-origin: center;
+  }
+  button:hover {
+    background-color: #caca00;
+    color: black;
+  }
+
+  .home a img {
+    position: relative;
+    left: -82px;
+    top: 354px;
+  }
+
+  .home a img:hover {
+    animation-name: up-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
   }
 }
 
